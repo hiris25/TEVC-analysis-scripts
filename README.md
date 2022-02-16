@@ -1,7 +1,13 @@
 # TEVC-analysis-scripts
 Python scripts for analysis of TEVC data from Robocyte and manual set ups
 
-## TEVC_DR
+- [Dose response](#dose-response)
+- [Anatgonist dose response](#anatgonist-dose-response)
+- [Manual ramp analysis](#manual-ramp-analysis)
+
+# Dose response
+
+File: TEVC_DR.ipynb
 
 ### Datasource:
 .dat files from Robo2+ with all features extracted and baseline subtracted.
@@ -14,7 +20,9 @@ all .dat files for a single construct should be in their own folder and each con
 - converts units and calculates I/Imax for each oocyte
 - calculates mean, sd, n and exports into new csv
 
-## DR_antagonsits 
+# Anatgonist dose response
+
+File: DR_antagonsits.ipynb
 
 ### Datasource:
 .dat files from Robo2+ with all features extracted and baseline subtracted.
@@ -25,7 +33,9 @@ all .dat files for a single construct should be in their own folder and each con
 ### Overview:
 As above but groups data by antagonist compound
 
-## TEVC_ManualRampAnalysis 
+# Manual ramp analysis
+
+File: TEVC_ManualRampAnalysis.ipynb
 
 ### Datasource:
 Manual or Robo current, time, voltage data in .xlxs format
